@@ -2,41 +2,9 @@ body{
     background-image: url("images/background.jpg");
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: white;
-}
-
 form {
     font-size: 12px;
     color: #ebd4e5
-}
-
-h2.aa {
-    width: 500px;
-    margin: 1px;
-    text-align: left;
-}
-
-div.zaq {
-    width: 900px;
-    height: 200px;
-}
-
-h4.qqq {
-    width: 200px;
-    height: 1px;
-}
-
-p.left{
-    font-size: 14px;
-    text-shadow: 1px 1px black;
-}
-
-.left {
-    display: block;
-    position: relative;
-    right: 30px;
-    bottom: 10px;
 }
 
 header {
@@ -51,21 +19,15 @@ header {
     text-align: right;
 }
 
-p {
+footer {
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+}
+
+p, ol, dl, ul {
     font-size: 12px;
     color: white;
-}
-
-p.fr {
-    color: #ebd4e5;
-    margin: 10px;
-}
-
-div.ds {
-    width: 220px;
-    height: 130px;
-    display: block;
-    float: left;
 }
 
 article {
@@ -81,110 +43,11 @@ article {
     bottom: 10px;
 }
 
-ul.about {
-    position: relative;
-    top: -21px;
-}
-
-ul.nav {
-    display: block;
-    float: left;
-    width: 200px;
-    height: 370px;
-    background-color: #373e47;
-    box-shadow: inset 0 0 3px;
-    border-radius: 3px;
-    position: relative;
-    left: 15px;
-} 
-
-li.log{
-    display: inline;
-}
-
-.lnd {
-    font-size: 12px;
-    display: block;
-    float: left;
-}
-
-.nd {
-    list-style-type: none;
-}
-
-li.table {
-    color: white;
-    font-size: 13px;
-    text-shadow: 1px 1px black ;
-    padding: 10px 10px 10px 10px;
-    margin: 0px -20px 0px -20px;
-    display: block;
-    border-bottom: 1px solid rgba(97, 97, 97, 0.5);
-    text-align: left;
-    position: relative;
-    right: 20px;
-}
-
-li.logo{
-    position: relative;
-    left: -240px;
-    top: 3px;
-}
-
 a {
     color: #ff8de3;
     text-decoration: underline;
 }
 
-a.sth {
-    font-size: 16px;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    color: #143567;
-    text-decoration: none;
-}
-
-a:hover, a.on {
-    color: #a45f93;
-    text-decoration: none;
-}
-
-span.bl {
-    font-size: 28px;
-    color: #373e47;
-}
-
-span.pn {
-    font-size: 28px;
-    color: #a45f93;
-}
-
-span.cm {
-    font-size: 20px;
-    color: #8b95a4;
-}
-
-div.content {
-    width: 960px;
-    height: 1200px;
-    margin: auto;
-    border: 1px solid slategrey;
-    border-radius: 3px;
-    background-color: #475363;
-}
-
-div.shit {
-    height: 1100px;
-    display: block;
-    float: left;
-}
-
-div.box {
-    width: 200px;
-    height: 370px;
-    display: block;
-    position: relative;
-}
 
 img {
     margin-right: 10px;
@@ -234,4 +97,128 @@ button {
     border-radius: 5px;
     border-top: 1px solid white;
     box-shadow: 1px 1px 1px 1px rgba(97, 97, 97, 0.5);
+}
+
+dl {
+    list-style-type: none;
+}
+
+h2.aa {
+    width: 500px;
+    margin: 1px;
+    text-align: left;
+}
+
+h4 {
+    width: 200px;
+    height: 1px;
+}
+
+p.left {
+    font-size: 14px;
+    text-shadow: 1px 1px black;
+}
+
+p.fr {
+    color: #ebd4e5;
+    margin: 10px;
+}
+
+ul.about {
+    position: relative;
+    top: -17px;
+}
+
+ul.nav {
+    width: 200px;
+    height: 370px;
+    background-color: #373e47;
+    box-shadow: inset 0 0 3px;
+    border-radius: 3px;
+    position: relative;
+    left: 15px;
+} 
+
+li.log{
+    display: inline;
+}
+
+li.table {
+    color: white;
+    font-size: 13px;
+    text-shadow: 1px 1px black ;
+    padding: 10px 10px 10px 10px;
+    margin: 0px -20px 0px -20px;
+    display: block;
+    border-bottom: 1px solid rgba(97, 97, 97, 0.5);
+    text-align: left;
+    position: relative;
+    right: 20px;
+}
+
+li.logo{
+    position: relative;
+    left: -240px;
+    top: 3px;
+}
+
+a.sth {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #143567;
+    text-decoration: none;
+}
+
+a:hover, a.on {
+    color: #a45f93;
+    text-decoration: none;
+}
+
+span.bl {
+    font-size: 28px;
+    color: #373e47;
+}
+
+span.pn {
+    font-size: 28px;
+    color: #a45f93;
+}
+
+span.cm {
+    font-size: 20px;
+    color: #8b95a4;
+}
+
+div.left {
+    position: relative;
+    right: 30px;
+    top: 10px
+}
+
+div.zaq {
+    width: 900px;
+    height: 200px;
+}
+
+div.ds {
+    width: 220px;
+    height: 130px;
+    display: block;
+    float: left;
+}
+
+div.content {
+    width: 960px;
+    height: 1200px;
+    margin: auto;
+    border: 1px solid slategrey;
+    border-radius: 3px;
+    background-color: #475363;
+}
+
+div.shit {
+    height: 1100px;
+    display: block;
+    float: left;
 }
